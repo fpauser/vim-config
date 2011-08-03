@@ -4,9 +4,14 @@ call pathogen#runtime_append_all_bundles()
 " reset to vim-defaults
 set nocompatible
 
+" indent
+filetype plugin indent on
+set expandtab
+set shiftwidth=2
+set softtabstop=2
+
 " display settings
 set background=dark     " enable for dark terminals
-"set nowrap              " dont wrap lines
 set scrolloff=2         " 2 lines above/below cursor when scrolling
 set number              " show line numbers
 set showmatch           " show matching bracket (briefly jump)
@@ -28,7 +33,8 @@ set nobackup            " no backup~ files.
 " colors & syntax
 if &t_Co > 2 || has("gui_running")
   syntax on          " enable colors
-  "set hlsearch       " highlight search (very useful!)
+  set hlsearch       " highlight search (very useful!)
+  set hl=l:Visual    " change highlight-color of hlsearch
   set incsearch      " search incremently (search while typing)
   color solarized
 endif
@@ -43,10 +49,7 @@ map <C-l> <C-w><Right>
 map <C-h> <C-w><Left>
 
 " tune minibuf-expl
-let g:miniBufExplMapWindowNavVim = 1 
-let g:miniBufExplMapWindowNavArrows = 1 
 let g:miniBufExplMapCTabSwitchBufs = 1 
-let g:miniBufExplModSelTarget = 1
 let g:miniBufExplUseSingleClick = 1
 
 " ruby-files
