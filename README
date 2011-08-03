@@ -1,6 +1,6 @@
 1. Clone
 cd && git clone https://github.com/fpauser/vim-config
-cd git-config && git submodule init && git submodule update && cd
+cd vim-config && git submodule init && git submodule update && cd
 
 2. Setup
 rm -rf ~/.vim/bundle && ln -sf ~/vim-config/.vim/bundle ~/.vim/
