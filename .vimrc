@@ -51,3 +51,6 @@ let g:miniBufExplUseSingleClick = 1
 
 " ruby-files
 au BufRead,BufNewFile {Gemfile,Rakefile,Guardfile,config.ru} set ft=ruby
+
+" custom mappings
+map <C-s> :w<Enter> " save
