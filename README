@@ -1,1 +1,11 @@
-personal git-config
+1. Clone
+cd && git clone https://github.com/fpauser/vim-config
+cd git-config && git submodule init && git submodule update && cd
+
+2. Setup
+rm -rf ~/.vim/bundle && ln -sf ~/vim-config/.vim/bundle ~/.vim/
+rm ~/.vimrc && ln -sf ~/vim-config/.vimrc ~/
+rm ~/.gvimrc && ln -sf ~/vim-config/.gvimrc ~/
+
+3. Install CommandT
+http://www.vim.org/scripts/script.php?script_id=3025
