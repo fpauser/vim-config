@@ -48,12 +48,8 @@ map <C-j> <C-w><Down>
 map <C-l> <C-w><Right>
 map <C-h> <C-w><Left>
 
-" tune minibuf-expl
-let g:miniBufExplMapCTabSwitchBufs = 1 
-let g:miniBufExplUseSingleClick = 1
-
 " ruby-files
 au BufRead,BufNewFile {Gemfile,Rakefile,Guardfile,config.ru} set ft=ruby
 
 " custom mappings
-map <C-s> :w<Enter> " save
+map <C-s> :w<CR> 
