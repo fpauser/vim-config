@@ -10,5 +10,3 @@ rm -rf ~/.vim/bundle && ln -sf ~/vim-config/.vim/bundle ~/.vim/
 rm ~/.vimrc && ln -sf ~/vim-config/.vimrc ~/
 rm ~/.gvimrc && ln -sf ~/vim-config/.gvimrc ~/
 
-4. install CommandT
-http://www.vim.org/scripts/script.php?script_id=3025

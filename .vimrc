@@ -40,7 +40,7 @@ if &t_Co > 2 || has("gui_running")
 endif
 
 "ComandT
-map <C-S-n> :CommandT<CR>
+map <C-S-n> :FuzzyFinderTextMate<CR>
 
 " Map ctrl-movement keys to window switching
 map <C-k> <C-w><Up>
