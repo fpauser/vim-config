@@ -29,6 +29,7 @@ set smarttab            " smart tab handling for indenting
 set magic               " change the way backslashes are used in search patterns
 set bs=indent,eol,start " Allow backspacing over everything in insert mode
 set nobackup            " no backup~ files.
+set mouse=a
 
 " colors & syntax
 if &t_Co > 2 || has("gui_running")
