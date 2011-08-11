@@ -9,4 +9,7 @@
 	url = git://github.com/tpope/vim-rails.git
 [submodule ".vim/bundle/vim-cucumber"]
 	path = .vim/bundle/vim-cucumber
-	url = https://github.com/tpope/vim-cucumber
+        url = https://github.com/tpope/vim-cucumber
+[submodule ".vim/bundle/fuzzyfinder_textmate"]
+	path = .vim/bundle/fuzzyfinder_textmate
+        url = https://github.com/leh/fuzzyfinder_textmate
