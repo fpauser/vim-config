@@ -10,9 +10,6 @@
 [submodule ".vim/bundle/vim-cucumber"]
 	path = .vim/bundle/vim-cucumber
         url = https://github.com/tpope/vim-cucumber
-[submodule ".vim/bundle/fuzzyfinder_textmate"]
-	path = .vim/bundle/fuzzyfinder_textmate
-        url = https://github.com/leh/fuzzyfinder_textmate
 [submodule ".vim/bundle/vim-bundler"]
 	path = .vim/bundle/vim-bundler
 	url = git://github.com/tpope/vim-bundler.git
