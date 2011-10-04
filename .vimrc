@@ -11,7 +11,7 @@ set shiftwidth=2
 set softtabstop=2
 
 " display settings
-set background=dark     " enable for dark terminals
+set background=light    " solized @ light
 set scrolloff=2         " 2 lines above/below cursor when scrolling
 set number              " show line numbers
 set showmatch           " show matching bracket (briefly jump)
@@ -51,7 +51,7 @@ map <C-l> <C-w><Right>
 map <C-h> <C-w><Left>
 
 " ruby-files
-au BufRead,BufNewFile {Gemfile,Rakefile,Guardfile,config.ru} set ft=ruby
+au BufRead,BufNewFile {Gemfile,Rakefile,Guardfile,config.ru,Thorfile} set ft=ruby
 
 " custom mappings
 map <C-s> :w<CR> 
