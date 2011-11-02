@@ -49,6 +49,9 @@ set statusline+=%-14.(%l,%c%V%)\ %<%P        " offset
 set listchars=tab:▸\ ,eol:¬ " Use custom symbols for tabstops and EOLs
 set showbreak=…
 
+" all swap files in single folder
+set directory=~/.vim_swap//
+
 " colors & syntax
 if &t_Co > 2 || has("gui_running")
   syntax on          " enable colors
@@ -56,6 +59,12 @@ if &t_Co > 2 || has("gui_running")
   set hl=l:Visual    " change highlight-color of hlsearch
   set incsearch      " search incremently (search while typing)
   color solarized
+endif
+
+" When switching buffers, preserve window view.
+if v:version >= 700
+  au BufLeave * let b:winview = winsaveview()
+  au BufEnter * if exists('b:winview') | call winrestview(b:winview) | endif
 endif
 
 "ComandT
