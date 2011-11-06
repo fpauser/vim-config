@@ -11,7 +11,7 @@ set shiftwidth=2
 set softtabstop=2
 
 " display settings
-set background=light    " solized @ light
+set background=dark     " solized @ dark
 set scrolloff=3         " 3 lines above/below cursor when scrolling
 set number              " show line numbers
 set showmatch           " show matching bracket (briefly jump)

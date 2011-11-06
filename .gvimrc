@@ -1,3 +1,6 @@
+" Background
+set background=light     " solized @ dark
+
 " Schriftart/ -groesse setzen
 set guifont=Dejavu\ Sans\ Mono\ 12
  
