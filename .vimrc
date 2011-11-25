@@ -82,5 +82,8 @@ nmap <F12> :set list!<CR>
 " ruby-files
 au BufRead,BufNewFile {Gemfile,Rakefile,Guardfile,config.ru,Thorfile} set ft=ruby
 
+" check js-files on save
+au BufWritePost *.js :JSHint
+
 " custom mappings
 map <C-s> :w<CR> 
