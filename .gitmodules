@@ -25,3 +25,6 @@
 [submodule ".vim/bundle/vim-jshint"]
 	path = .vim/bundle/vim-jshint
 	url = https://github.com/walm/jshint.vim
+[submodule ".vim/bundle/command-t"]
+	path = .vim/bundle/command-t
+	url = git://git.wincent.com/command-t.git

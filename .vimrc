@@ -68,7 +68,7 @@ if v:version >= 700
 endif
 
 "ComandT
-"map <C-S-n> :FuzzyFinderTextMate<CR>
+map <C-n> :CommandT<CR>
 
 " Map ctrl-movement keys to window switching
 map <C-k> <C-w><Up>
