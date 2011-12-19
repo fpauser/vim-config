@@ -69,6 +69,7 @@ endif
 
 "ComandT
 map <C-n> :CommandT<CR>
+map <C-b> :CommandTBuffer<CR>
 
 " Map ctrl-movement keys to window switching
 map <C-k> <C-w><Up>
