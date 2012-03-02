@@ -31,6 +31,7 @@ set bs=indent,eol,start " Allow backspacing over everything in insert mode
 set nobackup            " no backup~ files.
 set mouse=a             " use mouse to select stuff
 set nowrap              " do not wrap long lines
+set hidden              " when switching buffers: hide & preserve history
 
 " nice statusbar
 set laststatus=2
@@ -88,3 +89,4 @@ au BufWritePost *.js :JSHint
 
 " custom mappings
 map <C-s> :w<CR> 
+nnoremap <esc> :noh<return><esc>
