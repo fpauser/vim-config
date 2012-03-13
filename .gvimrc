@@ -2,7 +2,7 @@
 set background=light     " solized @ dark
 
 " Schriftart/ -groesse setzen
-set guifont=Dejavu\ Sans\ Mono\ 10
+set guifont=Dejavu\ Sans\ Mono\ 9
  
 " Menueleisten, Scrollleisten nicht anzeigen
 set guioptions-=r
