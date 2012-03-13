@@ -90,7 +90,9 @@ au BufWritePost *.js :JSHint
 
 " custom mappings
 map <C-s> :w<CR> 
-nnoremap <esc> :noh<return><esc>
+
+" custom commands
+command C let @/=''
 
 " correct behavior
 augroup NO_CURSOR_MOVE_ON_FOCUS
