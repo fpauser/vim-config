@@ -88,9 +88,6 @@ au BufRead,BufNewFile {Gemfile,Rakefile,Guardfile,config.ru,Thorfile} set ft=rub
 " check js-files on save
 au BufWritePost *.js :JSHint
 
-" custom mappings
-map <C-s> :w<CR> 
-
 " custom commands
 command C let @/=''
 
