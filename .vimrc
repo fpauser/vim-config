@@ -70,7 +70,7 @@ if v:version >= 700
 endif
 
 "ComandT
-map <C-n> :CommandT<CR>
+map <C-t> :CommandT<CR>
 map <C-b> :CommandTBuffer<CR>
 
 " Map ctrl-movement keys to window switching
@@ -84,9 +84,6 @@ nmap <F12> :set list!<CR>
 
 " ruby-files
 au BufRead,BufNewFile {Gemfile,Rakefile,Guardfile,config.ru,Thorfile} set ft=ruby
-
-" check js-files on save
-au BufWritePost *.js :JSHint
 
 " custom commands
 command C let @/=''
